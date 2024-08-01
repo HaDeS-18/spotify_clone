@@ -89,7 +89,7 @@ Widget _registerNowText(BuildContext context){
           onPressed:(){
             Navigator.pushReplacement(
               context, 
-              MaterialPageRoute(builder: (BuildContext context) => const SignupPage())
+              MaterialPageRoute(builder: (BuildContext context) => SignupPage())
               );
           } , 
           child: const Text('Register Now'),      
